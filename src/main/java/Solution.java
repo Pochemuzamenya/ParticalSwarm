@@ -15,6 +15,10 @@ public class Solution {
             this.solution.add(0);
     }
 
+    public List<Integer> getSolution() {
+        return solution;
+    }
+
     /**
      * Случайное решение
      */
@@ -94,6 +98,6 @@ public class Solution {
 
     @Override
     public String toString() {
-        return "Solution is : "+this.solution;
+        return "Solution is : " + this.solution;
     }
 }
